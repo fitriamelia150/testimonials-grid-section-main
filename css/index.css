@@ -13,7 +13,7 @@
 body {
 	display: flex;
 	align-items: center;
-	min-height: 160vh;
+	min-height: 150vh;
 }
 
 p {
@@ -160,6 +160,9 @@ p {
 
 
 @media(width < 900px) {
+	.main {
+		min-width: 303px;
+	}
 	.main .card {
 		display: grid;
 		grid-template-areas:
